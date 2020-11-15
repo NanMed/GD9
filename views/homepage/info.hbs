@@ -1,0 +1,18 @@
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Short Url</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card my-3 bg-light">
+        <div class="card-body">
+          <p class="card-text">La URL original fue: {{ url.original_url }}</p>
+          <p class="card-text">La URL generada es: {{ url.short_url }}</p>
+          <p class="card-text">Cantidad de veces que se ha redireccionado: {{ url.num_referencia }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
